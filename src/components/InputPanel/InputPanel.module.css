@@ -1,0 +1,35 @@
+.inputPanel {
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputPanel input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #2f2d52;
+  font-size: 1.5rem;
+}
+.inputPanel input::placeholder {
+  color: lightgrey;
+}
+.inputPanel .send {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.inputPanel .send img {
+  height: 2em;
+  cursor: pointer;
+}
+.inputPanel .send button {
+  border: none;
+  padding: 1em;
+  color: white;
+  background-color: #8da4f1;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=InputPanel.module.css.map */

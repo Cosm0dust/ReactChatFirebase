@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background-color: #a7bcff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .container {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 65%;
+  height: 80vh;
+  display: flex;
+}
+
+/*# sourceMappingURL=Home.module.css.map */

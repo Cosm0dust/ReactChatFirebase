@@ -1,0 +1,34 @@
+.search {
+  border-bottom: 1px solid gray;
+}
+.search .searchForm {
+  padding: 1em;
+}
+.search .searchForm input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+.search .searchForm input::placeholder {
+  color: lightgrey;
+}
+.search .userChat {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  color: white;
+  cursor: pointer;
+}
+.search .userChat:hover {
+  background-color: #2f2d52;
+}
+.search .userChat img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=Search.module.css.map */

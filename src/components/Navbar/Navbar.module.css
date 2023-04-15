@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #2f2d52;
+  height: 3em;
+  padding: 1em;
+  justify-content: space-between;
+  color: #ddddf7;
+}
+.navbar .logo {
+  font-weight: bold;
+}
+.navbar .user {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.navbar .user img {
+  background-color: #ddddf7;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.navbar .user button {
+  background-color: #5d5b8d;
+  color: #ddddf7;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */

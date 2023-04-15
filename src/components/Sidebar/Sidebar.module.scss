@@ -1,0 +1,11 @@
+.sideBar{
+  flex: 1;
+  background-color: #3e3c61;
+  display: flex;
+  flex-direction: column;
+
+  .chatsName{
+    overflow-y: scroll;
+    height: 100%;
+  }
+}
